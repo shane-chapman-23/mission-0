@@ -7,13 +7,17 @@
 
 .articleDisplayGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 100px;
+  place-items: center;
+
+  width: 100%;
+  max-width: 1400px;
 }
 
 .articlePreviewContainer {
   height: 400px;
-  width: 300px;
+  width: 400px;
 
   border: 1px solid black;
 
@@ -21,8 +25,10 @@
 }
 
 .articlePreviewContainer img {
-  height: 50%;
+  height: 60%;
   width: 100%;
+
+  object-fit: cover;
 }
 
 .articlePreviewContainer h1 {
@@ -31,4 +37,17 @@
 
 .articlePreviewContainer p {
   margin-left: 10px;
+}
+
+@media (max-width: 1500px) {
+  .articleDisplayGrid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .articleDisplayGrid {
+    grid-template-columns: 1fr;
+  }
 }

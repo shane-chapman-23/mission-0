@@ -2,3 +2,15 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+@media (max-width: 1500px) {
+  * {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .articleDisplayGrid {
+    grid-template-columns: 1fr;
+  }
+}

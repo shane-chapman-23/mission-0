@@ -1,0 +1,21 @@
+.navLogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 20px;
+}
+
+.navLogo {
+  background-color: grey;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.navCompanyName {
+  margin-left: 10px;
+
+  font-size: 1rem;
+  color: white;
+}

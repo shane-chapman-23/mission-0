@@ -1,0 +1,35 @@
+.headerContainer {
+  height: 500px;
+  width: 100vw;
+
+  background-color: red;
+}
+
+.headerTitleContainer {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 100vw;
+}
+.headerTitle {
+  margin-left: 50px;
+
+  font-size: 4rem;
+  color: white;
+}
+
+.headerSearchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.headerSearchContainer input {
+  height: 50px;
+  width: 400px;
+}
+
+.headerSearchContainer button {
+  height: 50px;
+  width: 100px;
+}

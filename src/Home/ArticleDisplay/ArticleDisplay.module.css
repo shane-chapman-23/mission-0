@@ -1,0 +1,34 @@
+.articleDisplayContainer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.articleDisplayGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+
+.articlePreviewContainer {
+  height: 400px;
+  width: 300px;
+
+  border: 1px solid black;
+
+  cursor: pointer;
+}
+
+.articlePreviewContainer img {
+  height: 50%;
+  width: 100%;
+}
+
+.articlePreviewContainer h1 {
+  margin-left: 10px;
+}
+
+.articlePreviewContainer p {
+  margin-left: 10px;
+}

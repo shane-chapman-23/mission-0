@@ -48,7 +48,9 @@ export default function ArticleDisplay() {
               <img src={article.image}></img>
               <h1>{article.title}</h1>
               <p>{article.datePublished}</p>
+
               <hr></hr>
+              <br />
               <p>{article.preview}...</p>
             </div>
           );

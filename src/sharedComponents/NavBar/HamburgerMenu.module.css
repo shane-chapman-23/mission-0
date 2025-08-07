@@ -1,0 +1,21 @@
+.hamburgerMenu {
+  display: none;
+  margin-right: 20px;
+}
+
+.hamburgerLine {
+  width: 30px;
+  height: 3px;
+
+  border-radius: 10%;
+
+  background-color: white;
+}
+
+@media (max-width: 700px) {
+  .hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

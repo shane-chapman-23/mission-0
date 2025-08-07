@@ -1,16 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-}
+  overflow-x: hidden;
 
-@media (max-width: 1500px) {
-  * {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1100px) {
-  .articleDisplayGrid {
-    grid-template-columns: 1fr;
-  }
+  font-family: "Inter", sans-serif;
 }

@@ -21,3 +21,9 @@
 .loginButton {
   border: 1px solid white;
 }
+
+@media (max-width: 700px) {
+  .navMenuContainer {
+    display: none;
+  }
+}

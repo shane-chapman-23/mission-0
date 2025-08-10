@@ -10,13 +10,13 @@ export default function ArticleDisplay() {
     },
     {
       title: "Article Title",
-      image: "/images/big-chillin.png",
+      image: "/images/cat-in-car.png",
       preview: "This is a preview for the article",
       datePublished: "May 12, 2025",
     },
     {
       title: "Article Title",
-      image: "/images/big-chillin.png",
+      image: "/images/sneezy.png",
       preview: "This is a preview for the article",
       datePublished: "May 12, 2025",
     },

@@ -22,7 +22,7 @@
   border: 1px solid white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .navMenuContainer {
     display: none;
   }
